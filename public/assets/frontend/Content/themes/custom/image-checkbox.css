@@ -1,0 +1,26 @@
+.form-check.image-checkbox label {
+    cursor: pointer;
+}
+
+.form-check.image-checkbox input {
+    opacity: 0;
+}
+
+.form-check.image-checkbox input:after, .form-check.image-checkbox input:before {
+    transition: opacity .3s ease;
+}
+
+.form-check.image-checkbox label:focus, .form-check.image-checkbox label:hover {
+    opacity: .8;
+}
+.form-check.image-checkbox label {
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-check.image-checkbox .radio_animated:checked + .form-check-label {
+    border: 2px solid var(--bs-primary)
+}

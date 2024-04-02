@@ -1,0 +1,706 @@
+/*
+
+    Tamplate Name: Light.
+    version:1.1.
+    author:monirkm.
+    
+    Content of Tamplate
+============================
+    1.menu Part
+    2.banner part
+    3.introduction part
+    4.cause part
+    5.event part
+    6.member part
+    7.partner part
+    8.footer Part
+
+*/
+ol,
+li,
+ul,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+/* .preload{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background: white;
+    z-index: 9999;
+} */
+
+/* .preload img{
+    position: fixed;
+    z-index: 9999;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} */
+/* color Part Start*/
+
+/* .footer_part i,
+.member_image_overly,
+.member_image:after,
+.member_overly,
+.team_item:after,
+#partner .slick-dots li button,
+.cause_itemm img,
+.introduction_item img,
+.banner_content .banner_button {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -mz-transition: .4s;
+    -moz-transition: .4s;
+
+} */
+/* .member_overly i:hover,
+.member_overly h5,
+.contact_item i,
+.cause_bodyy span,
+.introduction_details span,
+.banner_content .banner_buttonTow:hover {
+    color: #00aeef;
+} */
+
+/* .toptobottom i:hover,
+#mynav .active:after,
+#footer,
+.contact_button,
+#partner .slick-dots .slick-active button,
+.team_right a:hover,
+.intro_content a,
+.common_button,
+#banner .slick-dots .slick-active button,
+#event .slick-dots .slick-active button,
+#mynav ul li a:after,
+.banner_content .banner_button:hover {
+    background: #00aeef;
+} */
+
+/* .team_right a:hover,
+.banner_content .banner_button:hover {
+    border-color: #00aeef;
+} */
+
+
+
+/* Common style start*/
+ol,
+li,
+ul,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.d {
+    background: #49296B;
+}
+
+.fill {
+    background: rgb(115,66,166);
+    background: linear-gradient(81deg, rgba(115,66,166,1) 0%, rgba(78,28,130,1) 100%);
+    border: 0;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid rgb(115,66,166);
+    color: #fff !important;
+    box-shadow: 42px 64px 96px -23px rgba(30,17,43,0.31);
+    -webkit-box-shadow: 42px 64px 96px -23px rgba(30,17,43,0.31);
+    -moz-box-shadow: 42px 64px 96px -23px rgba(30,17,43,0.31);
+}
+
+.outline {
+    border: 1px solid #49296B;
+    background-color: transparent !important;
+    color: #49296B !important;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+    .outline:hover {
+        color: #fff !important;
+        background: rgb(115,66,166);
+        background: linear-gradient(81deg, rgba(115,66,166,1) 0%, rgba(78,28,130,1) 100%);
+    }
+
+
+/* Header Start */
+
+/* .navbar{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 5px 12px 28px -3px rgba(0,0,0,0.1)!important;
+} */
+
+.headbtn {
+    padding: 8px 18px;
+    box-shadow: 5px 12px 28px -3px rgba(0,0,0,0.1) !important;
+    box-shadow: 5px 7px 50px 9px rgba(0,0,0,0.1);
+}
+
+.navbar ul li a {
+    color: #49296B;
+}
+
+.mmx3 {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+@media (max-width: 991px) {
+    #navbarNav ul li {
+        height: 50px;
+    }
+}
+
+.marqueeText {
+    background-color: rgba(75, 32, 112, 0.1);
+    color: #534B4B;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+/* banner Start  Start*/
+.bannerBackground {
+    /* background-size: cover !important;
+    background-position: center !important; */
+    /* position: relative; */
+    /* z-index: 2; */
+    background-repeat: no-repeat !important;
+    border-radius: 15px;
+}
+
+.nav {
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(73, 41, 107, 0.1);
+}
+
+.nav-tabs .tabLink {
+    width: 100%;
+}
+
+.bulletpoint {
+    display: flex;
+    text-align: center;
+    margin: 20px 0;
+    justify-content: center;
+    white-space: nowrap;
+}
+@media (max-width: 375px) {
+    .bulletpoint {
+        font-size: 85%;
+    }
+}
+
+.form-check-input:checked {
+    background-color: #49296B;
+    border-color: #7745ad;
+}
+
+.bulletpoint .form-check {
+    margin: 0 10px;
+}
+
+.searchBar ul li {
+    width: auto;
+    flex-grow: 1;
+}
+
+.searchBar {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+    .searchBar .nav-item .active svg path {
+        fill: #fff !important;
+    }
+
+.form-check-input {
+    align-self: center;
+}
+
+/* input:active {
+    
+    border: red!important;
+  } */
+input[type=text] {
+    outline: 0;
+}
+
+    input[type=text]:focus {
+        border: none !important;
+    }
+
+.bannerContent {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+    .bannerContent h2 {
+        color: #fff;
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+.searchBar .nav-link {
+    padding: 15px 0 !important;
+    color: #171717;
+    white-space: nowrap;
+}
+
+.searchBar .nav-tabs .active {
+    background: rgb(115,66,166);
+    background: linear-gradient(81deg, rgba(115,66,166,1) 0%, rgba(78,28,130,1) 100%);
+    color: #fff;
+    padding: 10px;
+    /* box-shadow: 5px 12px 28px -3px rgba(0,0,0,0.1); */
+    box-shadow: 5px 7px 50px 9px rgba(0,0,0,0.1);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -mz-transition: .4s;
+    -moz-transition: .4s;
+}
+
+    .searchBar .nav-tabs .active:hover {
+        background: linear-gradient(81deg, rgb(101, 36, 170) 100%, rgb(144, 92, 199) 50%);
+    }
+
+
+.SearchBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SearchBoxItemOne input::placeholder {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.SearchBoxItemOne input {
+    border: 0;
+    padding: 0px 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px 0;
+    color: black;
+    width: 130px;
+}
+
+    .SearchBoxItemOne input[type=text]:focus {
+        border: none;
+    }
+
+.searchInputs {
+    border: 1px solid #ddd;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.SearchBoxItemOne p {
+    font-size: 12px;
+}
+
+.searchBar {
+    /*padding-bottom: 50px;*/
+}
+
+.nav-item button {
+    color: #252525;
+}
+
+.bannerSection {
+    margin-bottom: 50px;
+}
+
+.searchBar {
+    position: relative;
+}
+
+.searchBTn {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 70px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+    .searchBTn:hover {
+        background: linear-gradient(81deg, rgb(101, 36, 170) 100%, rgb(144, 92, 199) 50%);
+    }
+
+
+
+/* Ads Section start */
+.adsSection {
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    margin: 40px 0;
+}
+
+.adsDackground {
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 7px;
+    box-shadow: 5px 7px 50px 9px rgba(0,0,0,0.1);
+}
+
+.adsDackgroundM {
+    padding: 30px;
+    margin: 60px 0;
+    
+}
+
+    .adsDackgroundM h4 {
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .adsDackgroundM p {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .adsDackgroundM a {
+        width: 100%;
+        color: #fff;
+        border-radius: 5px;
+        background-color: #925fc9;
+        border: 0;
+        padding: 12px;
+    }
+
+/* offer section start */
+.offerSection {
+    padding: 60px 0;
+}
+
+.sectionTitle h3 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #251638;
+    margin-bottom: 55px;
+}
+
+.offerCard {
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+    .offerCard:hover {
+        box-shadow: 0px 10px 32px -7px rgba(0,0,0,0.1);
+    }
+
+.sectionTitle span {
+    color: #7745ad;
+}
+
+.offerCard .cardTitle {
+    font-size: 14px;
+    color: rgba(23, 23, 23, 0.7);
+    margin-bottom: 10px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .cardFooter h6 {
+        font-size: 18px;
+        color: #171717;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .cardFooter p {
+        font-size: 14px;
+        color: #4D4C4C;
+    }
+
+/* contentCardItem */
+.contentSection4 {
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+
+.contentCardItem {
+    text-align: center;
+    padding-top: 30px;
+}
+
+    .contentCardItem img {
+        max-width: 35px;
+    }
+
+.cardFooterLeft sup {
+    color: #4D4C4C;
+    margin: 0px 3px;
+    font-weight: 500;
+}
+
+.contentCardItem h4 {
+    font-size: 22px;
+    color: #262425;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.contentCardItem p {
+    font-size: 16px;
+    color: #7A7C7B;
+    font-weight: 300;
+}
+
+/* top destinations */
+
+
+.topDesCard {
+    padding-top: 20px;
+}
+
+.placeItem {
+    text-align: center;
+    transition: 0.4s;
+    position: relative;
+    z-index: -2;
+}
+
+    .placeItem img {
+        width: 100%;
+    }
+
+    .placeItem:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        z-index: 999999;
+        background: rgb(64,29,99);
+        background: linear-gradient(0deg, rgba(64,29,99,1) 0%, rgba(78,28,130,0) 100%);
+    }
+
+.cardHoverEffect {
+    transition: 0.4s;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+    .cardHoverEffect:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+
+        .cardHoverEffect:hover .placeInfo span {
+            visibility: visible;
+        }
+
+.placeInfo {
+    z-index: 999;
+    text-align: center;
+    margin-top: -90px;
+}
+
+    .placeInfo h5 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .placeInfo p {
+        font-size: 16px;
+        color: #DCB9FF;
+        margin-bottom: 3px;
+    }
+
+    .placeInfo span {
+        font-size: 14px;
+        background-color: #ffffff9f;
+        color: #251638;
+        padding: 3px 24px;
+        border-radius: 20px;
+        margin-top: 10px;
+        visibility: hidden;
+        transition: .4s;
+    }
+
+.topDesCard {
+    padding: 10px;
+}
+
+/* footer Content */
+
+.footerContent {
+    padding: 60px 0 0 0;
+}
+
+.footer {
+    margin-top: 130px;
+    background-repeat: no-repeat !important;
+    margin: 0 auto;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.sslImages {
+    /*max-width: 430px;*/
+}
+
+.footerAbout p {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.footerRight {
+    display: flex;
+}
+
+    .footerRight p {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        align-self: center;
+        margin-left: 10px;
+    }
+
+.footerRightBottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.SocialMedia ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .SocialMedia ul li {
+        margin: 0px 8px;
+    }
+
+.footerAbout p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footerContent h6 {
+    color: #e6e3e3;
+    font-size: 20px;
+    font-weight: 300 !important;
+}
+
+.footerLink p a {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 28px;
+}
+
+/* live chat */
+
+
+body {
+    position: relative;
+}
+
+.liveChat {
+    position: fixed;
+    right: 50px;
+    display: flex;
+    bottom: 70px;
+}
+
+    .liveChat p {
+        color: #743cac;
+        margin-right: 5px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .liveChat img {
+        max-width: 70px;
+    }
+
+.subFooter {
+    text-align: center;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,1 @@
+[13-Mar-2024 16:19:25 Asia/Karachi] Stripe Notice: Undefined property of Stripe\PaymentIntent instance: paid_amount_currency

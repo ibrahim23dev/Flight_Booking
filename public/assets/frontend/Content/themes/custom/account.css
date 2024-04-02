@@ -1,0 +1,119 @@
+.account-page {
+    background: #FFFFFF;
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+    .account-page::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        background-image: url(../home/img/login-2.jpg);
+        z-index: -1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.authBody .form-control {
+    border-radius: 0;
+    min-height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 30px 10px 0;
+    color: #111111;
+    background-color: transparent;
+    border-radius: 0 !important;
+}
+
+.account-input i {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.authBody label {
+    color: var(--main-color);
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 700 !important;
+    letter-spacing: 1.4px;
+}
+
+.forgot-password-btn {
+    color: var(--main-color);
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 700 !important;
+    letter-spacing: 1.4px;
+}
+
+.button-bottom .button{
+    margin: 0 auto;
+}
+
+.guest-login-pass {
+    display: block;
+    text-align: center;
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    color: var(--main-color);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.extra-auth{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.extra-auth p{
+    color: var(--main-color);
+    font-size: 14px;
+}
+
+    .extra-auth p a{
+        font-weight: 600;
+    }
+
+.auth-name {
+    background: linear-gradient(90deg, #aa076b 0%, #61045f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 991px){
+    .account-sign-in {
+        padding: 30px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .authSecTitle h2 {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--color-black-2);
+    }
+}
